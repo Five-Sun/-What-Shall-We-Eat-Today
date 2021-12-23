@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.1",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "jquery": "^3.6.0",
+    "mysql": "^2.18.1",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-copy-to-clipboard": "^5.0.4",
+    "request-ip": "^2.1.3",
+    "Router": "^2.1.0"
+  },
+  "scripts": {
+    "node": "nodemon Server.js",
+    "react": "cd project && yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run node\" \"npm run react\""
+  }
+}

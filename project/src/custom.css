@@ -1,0 +1,1238 @@
+.header
+{
+  height: 6.2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw;
+  background-color:#ffd400;
+  font-size: 1.25vw;
+  font-family: "Lato", sans-serif;
+  color:black;
+}
+
+.eggLogo
+{
+  position: relative;
+  width:3vw;
+  padding: 0.5vw;
+  vertical-align: middle;
+}
+
+.share_text {
+  display: inline-block;
+  margin-top: 0.5vw;
+  vertical-align: middle;
+}
+
+.share_section {
+  flex-direction: row;
+  display:flex;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 1vw;
+  padding-top: 3vw;
+}
+
+.header_logo
+{
+    margin: 0.1vw 0 0 9.5vw;
+    font-size: 2vw;
+    color: black;
+    position: relative;
+    font-family: initial;
+    font-weight: bold;
+    font-family: 'Hi Melody', cursive;
+    display:flex;
+    align-items: center;
+}
+
+.header_logo:hover
+{
+  transition: 0.25s;
+  font-size:2.2vw;
+}
+
+img {
+    border: 0;
+  }
+
+ul,
+ol {
+    list-style: none;
+    color:black;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+  
+.header_menu_ul  {
+  display:flex;
+  flex-direction: row;
+
+  width: 60vw;
+  position: relative;
+  right: 1vw;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  }
+  
+.header_menu_ul li
+{
+  padding: 0.2vw 0.4vw;
+  font-size: 1.4vw;
+  font-family: 'Gamja Flower', cursive;
+  /* border-radius: 0.2vw; */
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.header_menu_ul li:hover {
+  transition: 0.25s;
+  font-size:1.6vw;
+  text-decoration: none;
+  color: black;
+}
+  
+.nav {
+    background-color: #fffcbb;
+    height: 16.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navicon {
+  width: 1vw;
+  height: 1vw;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.contact_text {
+  font-size: 1em;
+} 
+
+.section {
+  background-color: whitesmoke;
+  padding-top: 5vw;
+}
+
+.Main_section{
+  background-color:whitesmoke ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.Main_section_text {
+  background-color:transparent ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2vw;
+  font-family: 'Jua', sans-serif;
+}
+
+.Main_section .card1, .Main_section .card2, .Main_section .card3
+{
+  width: 20vw;
+  height: 22vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 5vw;
+  background-color: #ffd400;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.Main_section_text .card1-1, .Main_section_text .card2-1, .Main_section_text .card3-1
+{
+  width: 20vw;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.Main_section_text .card1-2, .Main_section_text .card2-2, .Main_section_text .card3-2
+{
+  width: 20vw;
+  height: 5vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1vw;
+}
+
+.slider {
+    position: relative;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.sections {
+  padding: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  height:43vh;
+  background-color: white;
+}
+
+.sections img {
+  width: 25vw;
+  float: left;
+  padding-right: 2vw;
+}
+
+/* .homemeal_section {
+  padding: 5vw;
+  padding-left: 9vw;
+  vertical-align:middle;
+  height:60vh;
+  background-color: white;
+}
+
+.homemeal_section img {
+  width: 35%;
+  float: right;
+  padding-right: 2vw;
+} */
+
+/* .section_text {
+  margin-left: 10vw;
+} */
+
+.section_text_big {
+  position: relative;
+  margin-top: 3vw;
+  color: orange;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 4vw;
+}
+
+.section_text_small {
+  position: relative;
+  color: orange;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 2vw;
+}
+
+.start_test {
+  font-size: 2vw;
+  font-family: 'Gamja Flower', cursive;
+  font-weight: bold;
+  color:orange;
+  box-shadow:#d6d6d6 0.2vw 0.3vw 0.2vw;
+  -moz-box-shadow:#d6d6d6 0.2vw 0.3vw 0.2vw;
+  -webkit-box-shadow:#d6d6d6 0.2vw 0.3vw 0.2vw;
+  text-indent:0vw;
+  border-color:orange;
+  border-width: 0.2vw;
+  border-style:solid;
+  border-radius: 3vw;
+  -moz-border-radius: 3vw;
+  -webkit-border-radius: 3vw;
+  width: 13vw;
+  text-align:center;
+  vertical-align:middle;
+  display:inline-block;
+  padding:0.5vw;
+  text-align: center;
+  background-color: white;
+}
+
+.start_test:active {
+  box-shadow:orange 0.2vw 0 0.2vw;
+  -moz-box-shadow:#d6d6d6 0.2vw 0 0.2vw;
+  -webkit-box-shadow:#d6d6d6 0.2vw 0 0.2vw;
+  position:relative;
+  top: 0.5vw;
+  background-color: whitesmoke;
+}
+
+.question_section
+{
+  z-index: 2;
+  background-color: whitesmoke; 
+  height:60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4.5vw;
+  position: relative;
+}
+
+.question {
+  position: absolute;
+  flex-direction: column;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  display:inline;
+}
+
+.question_1, .question_2, .vs
+{
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  float: left;
+  font-size: 1.45vw;
+  margin: 1.5vw;
+  color: orange;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 3vw;
+  cursor: pointer;
+  vertical-align: center;
+}
+
+.question_text
+{
+  position: relative;
+  align-items: center;
+  float: left;
+  margin: 1.5vw;
+  color: #424242;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 2vw;
+  /* cursor: pointer; */
+  vertical-align: center;
+  flex-direction: column;
+}
+
+.pan
+{
+  text-align: center;
+  width: 35vw;
+  position: relative;
+  display : block;
+  float: left;
+}
+
+/* .pan3
+{
+  text-align: center;
+  width: 35vw;
+  position: relative;
+  display : block;
+  float: left;
+} */
+
+.box {
+  text-align: center;
+  height: 30vw;
+}
+
+.imgswap{
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+.imgswap img:last-child{display:none} 
+.imgswap:hover img:first-child{display:none} 
+.imgswap:hover img:last-child{display:inline-block}
+
+.random_section {
+  z-index: 2;
+  background-color: whitesmoke; 
+  height:57vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4.5vw;
+  position: relative;
+  padding-top: 8vh;
+}
+
+.bounce { 
+  font-size: 2vw;
+  width: 10vw;
+  padding-top: 0vh;
+  text-align: center;
+  font-weight: bold;
+  position:absolute;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count:  infinite;
+}
+
+.box1 { 
+  justify-content: center;
+  text-align: center;
+  width: 25vw;
+  height: 25vw;
+  animation: over 2s;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count:  infinite;
+}
+
+.box2 {
+  width: 35vw;
+  height: 30vw;
+  padding-bottom: 5vw;
+}
+
+/* 박스 굴러들어오는 애니메이션 */
+/* @keyframes over {
+  to {
+    transform: translate(45vw, 12vw) rotate( 360deg ) scale(3);
+  }
+} */
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -2vh;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+/* @keyframes delay2second {
+  0% {
+    opacity: 0;	
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;	
+  }
+} */
+
+.bar_out {
+  width: 50vw;
+  height: 5vw;
+  padding-top: 5vw;
+  background-color: whitesmoke;
+  text-align: right;
+  padding-bottom: 2vw;
+  margin: auto; 
+}
+
+.bar_in {
+  background-color: whitesmoke;
+  text-align: right;
+  width: 40vw;
+  height: 1vw;
+  margin: auto;
+}
+
+.background {
+  background-color: whitesmoke;
+  text-align: center;
+  z-index: 1;
+}
+
+.again_test {
+  font-weight: bold;
+  width: 18vw;
+	text-decoration:none;
+	box-shadow:#d6d6d6 0.2vw 0.3vw 0.2vw;
+	-moz-box-shadow:#d6d6d6 0.2vw 0.3vw 0.2vw;
+	-webkit-box-shadow:#d6d6d6 0.2vw 0.3vw 0.2vw;
+	text-indent:0vw;
+	-moz-border-radius:2vw;
+	-webkit-border-radius:2vw;
+	border-radius:2vw;
+	text-align:center;
+	display:inline-block;
+	font-size:2vw;
+	color:orange;
+	padding: 0.8vw;
+	border-color:orange;
+	border-width: 0.2vw;
+	border-style:solid;
+  font-family: 'Gamja Flower', cursive;
+  vertical-align: center;
+  background-color: white;
+  margin: 1vw;
+}
+
+.again_test:active {
+  box-shadow:orange 0.2vw 0 0.2vw;
+  -moz-box-shadow:#d6d6d6 0.2vw 0 0.2vw;
+  -webkit-box-shadow:#d6d6d6 0.2vw 0 0.2vw;
+	position:relative;
+	top: 0.5vh;
+  background-color: whitesmoke;
+}
+
+.again_test p{
+  float: left;
+  vertical-align: center;
+}
+
+.again_icon {
+  width: 2.5vw;
+  float: right;
+  vertical-align: center;
+}
+
+.share {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 3vw;
+  color: orange;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.share_icon {
+  width: 3.5vw;
+  height: 3.5vw;
+  padding: 0.5vw;
+}
+
+/* header 배경이 뒤로가게 index 설정*/
+.index1 {
+  position: relative; 
+  z-index: 1;
+}
+
+.index2 {
+  position: relative; 
+  z-index: 2;
+}
+
+/* header video */
+body {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+.header_vedio_box { 
+  width: 100%; 
+  height: 32vh; 
+  overflow: hidden;
+  margin: 0vw auto; 
+  position: relative; 
+}
+video { 
+  width: 100%; 
+  background-size : cover;
+  background-attachment : fixed;
+}
+
+.Main_header {
+  position:fixed;
+  width:100%;
+  height: 6.2vh;
+  background-color:transparent;
+  -webkit-transition-duration:0.4s;
+  -webkit-transition-timing-function:ease;
+  transition-duration:0.4s;
+  transition-timing-function:ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7vw;
+  font-size: 1.25vw;
+  font-family: "Lato", sans-serif;
+  color:black;
+}
+
+/* 스크롤 다운시 header 색상 변경 */
+.down {
+  background-color: orange;
+  -webkit-transition-duration:0.4s;
+  -webkit-transition-timing-function:ease;
+  transition-duration:0.4s;
+  transition-timing-function:ease;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list .up-on-scroll {
+  margin-top: 2.5vw;
+  transition: transform 1s, opacity 1s;
+}
+
+.result_text{
+  position: relative;
+  padding-top: 2.5vw;
+  padding-bottom: 0.5vw;
+  color: orange;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 3.5vw;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.link_font {
+  color: white;
+  display: inline;
+}
+
+.pan2{
+  transform: rotate(-4.5deg);
+}
+
+.clock {
+  width: 3vw;
+  padding-right: 2vw;
+}
+
+.h_question{
+  background-color: whitesmoke;
+  flex-direction: row;
+  position: relative;
+  float: left;
+  color: orange;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 3vw;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.h_question:hover{
+  background-color: orange;
+  border-radius: 40px;
+  flex-direction: row;
+  position: relative;
+  float: left;
+  color: white;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 3vw;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+ }
+
+.h_table{
+  background-color: whitesmoke;
+  border: 0;
+  border-collapse : collapse;
+  text-align: center;
+  margin-left: auto; margin-right: auto;
+  height: 35vw;
+  width: 28vw;
+  padding: 10vw;
+}
+
+/* .h_tr {
+  margin-left: auto; margin-right: auto;
+  text-align: center;
+  padding-top: 5vw;
+  margin-top: 3vw;
+} */
+
+/* .h_table > td {
+  paddingt: 4vw;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 2vw;
+  min-width: 18vw;
+  max-width: 18vw;
+  width: 100%;
+  color: #ffffff;
+  line-height: 1.4em;
+}
+figure.snip * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+figure.snip img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+figure.snip h3 {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  background-color: #ffd400;
+  z-index: 1;
+  text-align: right;
+  padding-right: 1vw;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1em;
+  -webkit-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+figure.snip h3:before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 18vw 2vw 0;
+  border-color: transparent #ffd400 transparent transparent;
+}
+figure.snip figcaption {
+  padding: 1vw 1vw 1vw 1vw;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  bottom: 0%;
+  background-color: #ffd400;
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+}
+figure.snip figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2vw 0 0 18vw;
+  border-color: transparent transparent transparent #ffd400;
+}
+figure.snip .icons {
+  margin-top: -2.5vw;
+}
+figure.snip i {
+  padding: 1vw 0 0 1vw ;
+  display: inline-block;
+  font-size: 2vw;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.7;
+}
+figure.snip i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip:hover h3,
+figure.snip.hover h3 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+figure.snip:hover figcaption,
+figure.snip.hover figcaption {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.section2_text{
+  display: none;
+}
+
+/* #header{
+  font-weight: bold;
+  background-color: brown;
+  font-size: 30px;
+  color: white;
+} */
+
+/* #toggle{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: white;
+  font-size: 40px;
+  display: none;
+}  */
+
+@media screen and (min-width: 769px) {
+  .mo_ver{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pc_ver {
+    display: none;
+  }
+
+  #toggle{
+      display: block;
+  }
+
+  .share {
+    font-size: 5vw;
+  }
+
+  .share_section {
+    margin-top: 2.5vw;
+  }
+
+  /*로고,메뉴바가 수직으로 나오도록*/
+  .navbar {
+    flex-direction: column;
+    display : flex; 
+    align-items: center;
+    background-color: orange;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .navbar__logo{
+    font-family: 'Hi Melody', cursive;
+    font-weight: bold;
+    font-size: 6vw;
+    color:white;
+    padding-bottom: 2vh;
+    vertical-align: middle;
+  }
+
+  .eggLogo_mo
+  {
+    position: relative;
+    width: 10vw;
+    top: 2vh;
+    /* right: 20vw; */
+  }
+
+  .eggLogo
+  {
+    position: relative;
+    width: 8vw;
+    padding-right: 0.5vw;
+    padding-top: 0.4vw;
+  }
+
+  .share_icon {
+    width: 7vw;
+    height: 7vw;
+    padding: 0.5vw;
+  }
+
+  .navbar__menu li{
+    padding : 1vh 2vw; /*마우스 클릭영역확보*/   
+    color: white;  
+  }
+
+  .navbar__menu li:hover {
+    background-color: #fffcbb;
+    border-radius: 2vw;
+  }
+
+  a {
+    text-decoration: none;
+    color :black;
+  }
+
+  .nav_img
+  {
+    position: absolute;
+    width: 8vw;
+    top: 3vh;
+    right: 3vw;
+  }
+  
+  .navbar__toogleBtn {
+    position: absolute;
+    right : 3vw; 
+    display: block;
+  }
+
+  .navbar__toogleBtn:hover {
+    cursor: pointer;
+  }
+
+  .navbar__menu{
+    display: none;
+    flex-direction: column;
+    align-items: center; 
+    width : 100vw;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: bold;
+  }
+
+  .navbar__menu.active {
+      display :flex;
+  }
+
+
+  /*모바일 css*/
+  .index1 {
+    display: none;
+  }
+  .Main_header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0vh 0;
+  }
+  .header_menu_ul{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .header_menu_ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header_logo {
+    justify-content: center;
+    width: 100vw;
+  }
+
+  figure.snip img {
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0vw;
+    margin: 0vw;
+  }
+
+  figure.snip {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 1vh 0 1vh 0;
+    color: #ffffff;
+    line-height: 1.4em;
+  }
+
+  .nav {
+    background-color: #fffcbb;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Open Sans', sans-serif;
+  }
+    
+  .contact {
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .contact_text {
+    font-size: 2em;
+  } 
+
+  .Main_mo_section{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .Main_card {
+    background-color: khaki;
+    width: 100%;
+    height: 25vh;
+  }
+
+  .section2_text {
+    display: "block";
+    padding-top: 1vh;;
+    width: 100%;
+    padding-bottom: 5vh;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+  .main_text_big {
+    padding-left: 2vw;
+    font-family: 'Jua', sans-serif;
+    font-size: 7vw;
+  }
+
+  .main_text_small {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Jua', sans-serif;
+    font-size: 3.5vw;
+  }
+
+  .Main_section{
+    padding: 5vh 0 5vh 0;
+  }
+
+  .section {
+    background-color: whitesmoke;
+    padding-top: 5vw;
+  }
+
+  .Main_section .card1, .Main_section .card2, .Main_section .card3
+  {
+    width: 30vw;
+    height: 32vw;
+    margin: 0vw;
+    padding: 0vw;
+    background-color: #ffd400;
+    display: flex;
+    font-size: 2vw;
+  }
+
+  .Main_section_text .card1-1, .Main_section_text .card2-1, .Main_section_text .card3-1
+  {
+    width: 40vw;
+    font-size: 4vw;
+  }
+
+  .Main_section_text .card1-2, .Main_section_text .card2-2, .Main_section_text .card3-2
+  {
+    width: 40vw;
+    font-size: 3vw;
+  }
+
+  figure.snip {
+    margin: 3vw;
+    min-width: 27vw;
+    max-width: 27vw;
+    line-height: 2.1em;
+  }
+  figure.snip h3 {
+    padding-right: 1.5vw;
+    font-size: 1.5em;
+  }
+  figure.snip h3:before {
+    border-width: 0 27vw 3vw 0;
+  }
+  figure.snip figcaption {
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+  }
+  figure.snip figcaption:before {
+    border-width: 3vw 0 0 27vw;
+  }
+  figure.snip .icons {
+    margin-top: -4vw;
+  }
+  figure.snip i {
+    padding: 1.5vw 0 0 1.5vw ;
+    font-size: 3vw;
+  }
+
+  .sections {
+    width: 100vw;
+    height:50vh;
+    background-color: white;
+    flex-direction: column;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sections img {
+    width: 50vw;
+    padding-right: 2vw;
+  }
+
+  .pan
+  {
+    text-align: center;
+    width: 10vw;
+    position: relative;
+    display : block;
+
+  }
+  .wid {
+    width:100vw;
+    height: 25vh;
+    background-color: #fffcbb;
+    background-image: linear-gradient(rgb(255, 253, 130), rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .section_text {
+    margin-left: 0vw;
+  }
+
+  .section_text_big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vw;
+  }
+
+  .section_text_small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+  }
+
+  .start_test {
+    font-size: 5vw;
+    width: 20vw;
+    padding:1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bar_out {
+    padding-bottom: 5vw;
+  }
+
+  .question_section
+  {
+    z-index: 2;
+    background-color: whitesmoke; 
+    height:47vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4.5vw;
+    position: relative;
+  }
+
+  .question_section img{
+    width: 75vw;
+  }
+
+  .question_1, .question_2, .vs
+  {
+    font-size: 7vw;
+  }
+
+  .again_test {
+    font-weight: normal;
+    width: 46vw;
+    font-size: 5vw;
+    margin: 1vw;
+    cursor: pointer;
+    border-radius: 4vw;
+  }
+  
+  .again_icon {
+    width: 5vw;
+    float: right;
+    vertical-align: center;
+  }
+
+  .result_text{
+    padding-top: 5vw;
+    font-size: 7vw;
+  }
+
+  .question_text
+  {
+    margin: 3vw;
+    font-size: 5vw;
+  }
+ 
+  .clock {
+    width: 6vw;
+  }
+
+  .h_question{
+    font-size: 8vw;
+    padding-left: 2vw;
+  }
+
+  .h_question:hover{
+    font-size: 8vw;
+   }
+  
+  .h_table{
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+    height: 70vw;
+    width: 70vw;
+  }
+
+  /* .h_tr {
+    margin-left: auto; margin-right: auto;
+    text-align: center;
+    padding-top: 5vw;
+    margin-top: 3vw;
+  } */
+
+  .bounce { 
+    font-size: 4vw;
+    width: 20vw;
+    padding-top: 2vw;
+  }
+
+  .box {
+    height: 35vw;
+  }
+
+  .box1 { 
+    width: 45vw;
+    height: 45vw;
+  }
+
+  .box2 {
+    width: 65vw;
+    height: 55vw;
+  }
+
+  .random_section {
+    padding-top: 0vh;
+  }
+}
