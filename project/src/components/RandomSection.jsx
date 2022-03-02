@@ -13,7 +13,7 @@ class RandomSection extends Component {
                     </div>
 
                     <div className="section_text_big">
-                        1초안에 알려줘요! <br />
+                        1초안에 알려줘 <br />
                     </div>
                     <div className="section_text_small">
                         랜덤으로 1초만에 메뉴 추천받기!<br />
